@@ -1,8 +1,18 @@
+// devcontainer.json
+
 {
   "name": "C++ development environment",
-  "image": "gcc:latest",
-  "extensions": ["ms-vscode.cpptools"],
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": ".."
+  },
+  "extensions": [
+    "ms-vscode.cpptools",
+    "formulahendry.code-runner"
+  ],
   "settings": {
     "terminal.integrated.shell.linux": "/bin/bash"
   },
+  
 }
+
