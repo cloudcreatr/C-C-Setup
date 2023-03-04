@@ -2,17 +2,9 @@
 
 {
   "name": "C++ development environment",
-  "build": {
-    "dockerfile": "Dockerfile",
-    "context": ".."
-  },
+  "image": "gcc:latest",
   "extensions": [
     "ms-vscode.cpptools",
     "formulahendry.code-runner"
-  ],
-  "settings": {
-    "terminal.integrated.shell.linux": "/bin/bash"
-  },
-  
+  ]
 }
-
