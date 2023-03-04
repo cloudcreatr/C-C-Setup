@@ -1,1 +1,17 @@
+{
+  "name": "C/C++ setup",
 
+  // Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+  "image": "registry.hub.docker.com/gcc:latest",
+
+  // Features to add to the dev container. More info: https://containers.dev/features.
+  // "features": {},
+
+  "customizations": {
+    "vscode": {
+      "settings": {},
+      "extensions": ["streetsidesoftware.code-spell-checker"]
+    }
+  },
+
+}
