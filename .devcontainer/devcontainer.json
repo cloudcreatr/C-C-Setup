@@ -7,4 +7,8 @@
     "ms-vscode.cpptools",
     "formulahendry.code-runner"
   ]
+  "settings": {
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.runInTerminal": true
+  }
 }
