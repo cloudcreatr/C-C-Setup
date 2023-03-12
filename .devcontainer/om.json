@@ -1,0 +1,9 @@
+// devcontainer.json
+
+{
+  "name": "C++ development environment",
+  "image": "Dockerfile",
+  "extensions": [
+    "ms-vscode.cpptools",
+  ]
+}
